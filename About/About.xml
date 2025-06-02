@@ -8,7 +8,7 @@
     <li>1.5</li>
   </supportedVersions>
   <modIconPath IgnoreIfNoMatchingField="True">UI/ModIcon</modIconPath>
-  <description>A range of fantasy creatures inspired by D&D to fill Rimworld.</description>
+  <description>A range of fantasy creatures inspired by Dungeons and Dragons to fill Rimworld.</description>
   <modDependencies>
     <li>
       <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
