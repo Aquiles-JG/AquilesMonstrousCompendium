@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Aq_Manticore</defName>
+    <label>manticore pelt</label>
+    <description>The tanned skin of a dead manticore. Good insulation for cold climates.</description>
+    <graphicData>
+      <color>(66,62,49)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.25</MarketValue>
+      <StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.26</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(66,62,49)</color>
+      <commonality>0</commonality>
+    </stuffProps>
+  </ThingDef>
+</Defs>

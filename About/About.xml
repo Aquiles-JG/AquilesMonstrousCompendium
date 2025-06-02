@@ -24,5 +24,6 @@
   <loadAfter>
     <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
     <li>Aquiles.Core</li>
+    <li>CETeam.CombatExtended</li>
   </loadAfter>
 </ModMetaData>
