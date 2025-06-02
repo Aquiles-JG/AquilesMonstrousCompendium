@@ -4,4 +4,9 @@
     <defName>Aq_AttackTail</defName>
     <label>scorpion tail</label>
   </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>Aq_HugeHeart</defName>
+    <label>huge heart</label>
+    <listOrder>110</listOrder>
+  </BodyPartGroupDef>
 </Defs>

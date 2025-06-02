@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>Aq_GorgonHeart</defName>
+    <label>gorgon's heart</label>
+    <description>The heart of a gorgon. It's gross, but it's inherent magic make it usable for alchemy.</description>
+    <graphicData>
+      <texPath>Things/Item/GorgonHeart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>5</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>350</MarketValue>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Mass>0.25</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>-5</Beauty>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Nutrition>0.3</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.25</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <foodType>AnimalProduct</foodType>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <tasteThought>AteCorpse</tasteThought>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>4</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Medieval</techLevel>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>Minoan</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>

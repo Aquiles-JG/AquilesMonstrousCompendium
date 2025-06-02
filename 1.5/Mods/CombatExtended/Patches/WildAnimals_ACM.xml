@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="Aq_Manticore"]</xpath>
+    <xpath>Defs/ThingDef[defName="Aq_Manticore" or defName="Aq_Gorgon"]</xpath>
     <value>
       <li Class="CombatExtended.RacePropertiesExtensionCE">
         <bodyShape>Quadruped</bodyShape>
@@ -109,6 +109,64 @@
           <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
           <chanceFactor>0.2</chanceFactor>
           <armorPenetrationBlunt>0.423</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+   <!-- ========== Gorgon ========== -->
+    <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Aq_Gorgon"]/statBases</xpath>
+    <value>
+      <MeleeDodgeChance>0.11</MeleeDodgeChance>
+      <MeleeCritChance>0.31</MeleeCritChance>
+      <MeleeParryChance>0.28</MeleeParryChance>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Aq_Gorgon"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>left hoof</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>13</power>
+          <cooldownTime>2</cooldownTime>
+          <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+          <armorPenetrationBlunt>5.04</armorPenetrationBlunt>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>right hoof</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>13</power>
+          <cooldownTime>2</cooldownTime>
+          <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+          <armorPenetrationBlunt>5.04</armorPenetrationBlunt>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>horn</label>
+          <capacities>
+            <li>Poke</li>
+          </capacities>
+          <power>22</power>
+          <cooldownTime>1.7</cooldownTime>
+          <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+          <armorPenetrationBlunt>9</armorPenetrationBlunt>
+          <chanceFactor>0.45</chanceFactor>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>head</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>15</power>
+          <cooldownTime>2.1</cooldownTime>
+          <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+          <armorPenetrationBlunt>5.76</armorPenetrationBlunt>
+          <chanceFactor>0.25</chanceFactor>
         </li>
       </tools>
     </value>

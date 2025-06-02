@@ -6,4 +6,10 @@
       <li>Aq_Manticore</li>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[@Name="ADS_Cat3" or @Name="ADS_Cat2" or @Name="ADS_Cat1"]/recipeUsers</xpath>
+    <value>
+      <li>Aq_Gorgon</li>
+    </value>
+  </Operation>
 </Patch>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="AI_SurgeryInstallBionic_Eye">
+    <defName>AI_AnimalPetrifyingGaze</defName>
+    <label>install animal petrifying gaze</label>
+    <description>Install an animal petrifying gaze.</description>
+    <descriptionHyperlinks>
+      <ThingDef>AI_AnimalPetrifyingGaze</ThingDef>
+      <HediffDef>AI_AnimalPetrifyingGaze</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing animal petrifying gaze.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AI_AnimalPetrifyingGaze</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AI_AnimalPetrifyingGaze</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <addsHediff>AI_AnimalPetrifyingGaze</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="AI_SurgeryRemoveImplantBase">
+    <defName>AI_RemoveAnimalPetrifyingGaze</defName>
+    <label>remove animal petrifying gaze</label>
+    <description>Remove the animal petrifying gaze.</description>
+    <descriptionHyperlinks>
+      <ThingDef>AI_AnimalPetrifyingGaze</ThingDef>
+      <HediffDef>AI_AnimalPetrifyingGaze</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing animal petrifying gaze.</jobString>
+    <removesHediff>AI_AnimalPetrifyingGaze</removesHediff>
+  </RecipeDef>
+</Defs>
