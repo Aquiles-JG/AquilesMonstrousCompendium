@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[@Name= "AI_SurgeryInstallProsthetic_Wing"]/appliedOnFixedBodyParts</xpath>
+    <value>
+      <li>Aq_Wing</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[@Name= "AI_SurgeryInstallBionic_Wing"]/appliedOnFixedBodyParts</xpath>
+    <value>
+      <li>Aq_Wing</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[@Name= "AI_SurgeryInstallProsthetic_Stinger"]/appliedOnFixedBodyParts</xpath>
+    <value>
+      <li>Aq_ScorpionTail</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[@Name= "AI_SurgeryInstallBionic_Stinger"]/appliedOnFixedBodyParts</xpath>
+    <value>
+      <li>Aq_ScorpionTail</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/HediffDef[defName= "AI_AnimalProstheticStinger"]/modExtensions/li[@Class="AlphaImplants.HediffImplantExtension"]/bodyPartGroupsToMultiplyDamage</xpath>
+    <value>
+      <li>Aq_AttackTail</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/HediffDef[defName= "AI_AnimalBionicStinger"]/modExtensions/li[@Class="AlphaImplants.HediffImplantExtension"]/bodyPartGroupsToMultiplyDamage</xpath>
+    <value>
+      <li>Aq_AttackTail</li>
+    </value>
+  </Operation>
+</Patch>

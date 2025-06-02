@@ -6,6 +6,7 @@
     <li>1.5</li>
     <li>Common</li>
     <li IfModActive="SamBucher.ADogSaidAnimalProsthetics2">1.5/Mods/ADogSaid2</li>
+    <li IfModActive="sarg.alphaimplants">1.5/Mods/AlphaImplants</li>
     <li IfModActive="CETeam.CombatExtended">1.5/Mods/CombatExtended</li>
   </v1.5>
   
