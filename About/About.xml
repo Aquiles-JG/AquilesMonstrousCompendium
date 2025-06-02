@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Aquiles Monstrous Compendium</name>
+  <packageId>Aquiles.MonstrousCompendium</packageId>
+  <author>Aquiles</author>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <modIconPath IgnoreIfNoMatchingField="True">UI/ModIcon</modIconPath>
+  <description>A range of fantasy creatures inspired by D&D to fill Rimworld.</description>
+  <modDependencies>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Aquiles.Core</packageId>
+      <displayName>Aquiles Core</displayName>
+      <downloadUrl>https://github.com/Aquiles-JG/AquilesCore</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+    <li>Aquiles.Core</li>
+  </loadAfter>
+</ModMetaData>
