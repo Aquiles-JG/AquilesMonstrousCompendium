@@ -15,15 +15,9 @@
       <displayName>Vanilla Expanded Framework</displayName>
       <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
     </li>
-    <li>
-      <packageId>Aquiles.Core</packageId>
-      <displayName>Aquiles Core</displayName>
-      <downloadUrl>https://github.com/Aquiles-JG/AquilesCore</downloadUrl>
-    </li>
   </modDependencies>
   <loadAfter>
     <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-    <li>Aquiles.Core</li>
     <li>CETeam.CombatExtended</li>
     <li>sarg.alphaimplants</li>
   </loadAfter>
