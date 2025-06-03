@@ -1,19 +1,21 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
-
-<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Leather_Aq_Gorgon" or defName="Leather_Aq_Manticore"]/statBases/StuffPower_Armor_Sharp</xpath>
-		<value>
-			<StuffPower_Armor_Sharp>0.08</StuffPower_Armor_Sharp>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Leather_Aq_Gorgon" or defName="Leather_Aq_Manticore"]/statBases/StuffPower_Armor_Blunt</xpath>
-		<value>
-			<StuffPower_Armor_Blunt>0.064</StuffPower_Armor_Blunt>
-		</value>
-	</Operation>
-
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Leather_Aq_Gorgon" or defName="Leather_Aq_Manticore"]/statBases/StuffPower_Armor_Sharp</xpath>
+    <value>
+      <StuffPower_Armor_Sharp>0.08</StuffPower_Armor_Sharp>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Leather_Aq_Gorgon" or defName="Leather_Aq_Manticore"]/statBases/StuffPower_Armor_Blunt</xpath>
+    <value>
+      <StuffPower_Armor_Blunt>0.064</StuffPower_Armor_Blunt>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Leather_Aq_Unicorn"]/statBases</xpath>
+    <value>
+      <StuffPower_Armor_Blunt>0.04</StuffPower_Armor_Blunt>
+    </value>
+  </Operation>
 </Patch>
