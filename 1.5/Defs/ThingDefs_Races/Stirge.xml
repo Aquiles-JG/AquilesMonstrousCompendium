@@ -3,7 +3,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Aq_Stirge</defName>
     <label>stirge</label>
-    <description>This horrid monster looks like a cross between a large bat and an oversized mosquito. Its legs end in sharp pincers, and its long, needle-like proboscis slashes the air as it seeks to feed on the blood of living creatures.</description>
+    <description>This horrid monster looks like a cross between a large bat and an oversized mosquito. Its legs end in sharp pincers, and its long, needle-like proboscis slashes the air as it seeks to feed on the blood of living creatures.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Stirges are little and do poor damage but their sting will drain blood until the pawn is dead. They normally appear in groups that will defend each other at the slightest sign of peril, so stirges are very dangerous when attacking in large numbers.</description>
     <statBases>
       <MoveSpeed>4.25</MoveSpeed>
       <MeleeDodgeChance>20</MeleeDodgeChance>
@@ -45,6 +45,11 @@
     <uiIconScale>1.2</uiIconScale>
     <comps>
       <li Class="AnimalBehaviours.CompProperties_Floating"></li>
+      <li Class="AnimalBehaviours.CompProperties_EnrageOtherPawns">
+		<pawnkinddefsToAffect>
+			<li>Aq_Stirge</li>
+		</pawnkinddefsToAffect>
+	  </li>
       <li Class="CompProperties_EggLayer">
         <eggUnfertilizedDef>Aq_StirgeEggUnfertilized</eggUnfertilizedDef>
         <eggFertilizedDef>Aq_StirgeEggFertilized</eggFertilizedDef>
