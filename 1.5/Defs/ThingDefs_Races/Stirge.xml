@@ -42,7 +42,7 @@
         <chanceFactor>0.1</chanceFactor>
       </li>
     </tools>
-    <uiIconScale>1.2</uiIconScale>
+    <uiIconScale>1.1</uiIconScale>
     <comps>
       <li Class="AnimalBehaviours.CompProperties_Floating"></li>
       <li Class="AnimalBehaviours.CompProperties_EnrageOtherPawns">

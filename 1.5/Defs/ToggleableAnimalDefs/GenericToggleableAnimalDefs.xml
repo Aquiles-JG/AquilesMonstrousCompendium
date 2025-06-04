@@ -2,7 +2,7 @@
 <Defs>
 
   <AnimalBehaviours.GenericToggleableAnimalDef>
-    <defName>Aq_DisabledAnimalSpawns</defName>
+    <defName>AqMC_DisabledAnimalSpawns</defName>
     <toggleablePawns>
       <li>Aq_Gorgon</li>
       <li>Aq_Manticore</li>
@@ -12,7 +12,7 @@
   </AnimalBehaviours.GenericToggleableAnimalDef>
   
   <AnimalBehaviours.AnimalsUnaffectedBySelfTameDef>
-    <defName>Aq_DisabledAnimalSelfTames</defName>
+    <defName>AqMC_DisabledAnimalSelfTames</defName>
     <unaffectedBySelfTamePawns>
       <li>Aq_Gorgon</li>
       <li>Aq_Manticore</li>
@@ -21,7 +21,7 @@
   </AnimalBehaviours.AnimalsUnaffectedBySelfTameDef>
   
   <AnimalBehaviours.AnimalsDisabledFromQuestsDef>
-    <defName>Aq_DisabledAnimalFromQuests</defName>
+    <defName>AqMC_DisabledAnimalFromQuests</defName>
     <disabledFromQuestsPawns>
       <li>Aq_Gorgon</li>
       <li>Aq_Manticore</li>
