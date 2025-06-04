@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Aq_Stirge</defName>
+    <label>stirge</label>
+    <description>This horrid monster looks like a cross between a large bat and an oversized mosquito. Its legs end in sharp pincers, and its long, needle-like proboscis slashes the air as it seeks to feed on the blood of living creatures.</description>
+    <statBases>
+      <MoveSpeed>4.25</MoveSpeed>
+      <MeleeDodgeChance>20</MeleeDodgeChance>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <MarketValue>250</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>proboscis</label>
+        <capacities>
+          <li>Aq_SuckingSting</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Aq_Sting</linkedBodyPartsGroup>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+      <li>
+        <label>talons</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.55</cooldownTime>
+        <linkedBodyPartsGroup>LegAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+    <uiIconScale>1.2</uiIconScale>
+    <comps>
+      <li Class="AnimalBehaviours.CompProperties_Floating"></li>
+      <li Class="CompProperties_EggLayer">
+        <eggUnfertilizedDef>Aq_StirgeEggUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>Aq_StirgeEggFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>5</eggLayIntervalDays>
+        <eggCountRange>1~4</eggCountRange>
+      </li>
+    </comps>
+    <race>
+      <body>Aq_Stirge</body>
+      <predator>true</predator>
+      <baseBodySize>0.79</baseBodySize>
+      <baseHealthScale>0.8</baseHealthScale>
+      <baseHungerRate>0.3</baseHungerRate>
+      <maxPreyBodySize>2</maxPreyBodySize>
+      <foodType>CarnivoreAnimal</foodType>
+      <fleshType>Insectoid</fleshType>
+      <bloodDef>Filth_BloodInsect</bloodDef>
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <wildness>0.985</wildness>
+      <manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+      <trainability>Intermediate</trainability>
+      <wildBiomes>
+        <TropicalSwamp>0.09</TropicalSwamp>
+        <ColdBog>0.05</ColdBog>
+        <TemperateSwamp>0.07</TemperateSwamp>
+      </wildBiomes>
+      <litterSizeCurve>
+		<points>
+			<li>(0.99, 0)</li>
+			<li>(1, 1)</li>
+			<li>(1.01, 0)</li>
+		</points>
+	  </litterSizeCurve>
+      <lifeExpectancy>12</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.25</minAge>
+          <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+          <soundDeath>Pawn_Megascarab_Death</soundDeath>
+          <soundCall>Aq_Stirge</soundCall>
+          <soundAngry>Aq_Stirge</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+		<li>AnimalExotic</li>
+	</tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Aq_Stirge</defName>
+    <label>stirge</label>
+    <race>Aq_Stirge</race>
+    <combatPower>120</combatPower>
+    <ecoSystemWeight>0.5</ecoSystemWeight>
+    <wildGroupSize>
+		<min>3</min>
+		<max>8</max>
+	</wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>nymphling</label>
+        <labelPlural>nymphlings</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Stirge/Aq_Stirge</texPath>
+          <drawSize>0.8</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Stirge/Aq_Dessicated_Stirge</texPath>
+          <drawSize>0.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Stirge/Aq_Stirge</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+			<volume>(0.3, 0.3, 0.3)</volume>
+			<offset>(0,0,-0.3)</offset>
+		  </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Stirge/Aq_Dessicated_Stirge</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Stirge/Aq_Stirge</texPath>
+          <drawSize>1.6</drawSize>
+          <shadowData>
+			<volume>(0.3, 0.3, 0.3)</volume>
+			<offset>(0,0,-0.3)</offset>
+		  </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Stirge/Aq_Dessicated_Stirge</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+ 
+</Defs>
