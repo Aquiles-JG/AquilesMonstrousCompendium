@@ -26,7 +26,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>2</power>
+        <power>3</power>
         <cooldownTime>1.55</cooldownTime>
         <linkedBodyPartsGroup>LegAttackTool</linkedBodyPartsGroup>
       </li>
@@ -59,12 +59,12 @@
       </li>
     </comps>
     <race>
-      <body>Aq_Stirge</body>
+      <body>Aq_StirgeBody</body>
       <predator>true</predator>
-      <baseBodySize>0.8</baseBodySize>
-      <baseHealthScale>0.8</baseHealthScale>
-      <baseHungerRate>0.3</baseHungerRate>
-      <maxPreyBodySize>2</maxPreyBodySize>
+      <baseBodySize>0.4</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <baseHungerRate>0.5</baseHungerRate>
+      <maxPreyBodySize>1.0</maxPreyBodySize>
       <foodType>CarnivoreAnimal</foodType>
       <fleshType>Insectoid</fleshType>
       <bloodDef>Filth_BloodInsect</bloodDef>
@@ -117,8 +117,8 @@
     <defName>Aq_Stirge</defName>
     <label>stirge</label>
     <race>Aq_Stirge</race>
-    <combatPower>120</combatPower>
-    <ecoSystemWeight>0.5</ecoSystemWeight>
+    <combatPower>100</combatPower>
+    <ecoSystemWeight>0.3</ecoSystemWeight>
     <wildGroupSize>
 		<min>3</min>
 		<max>8</max>

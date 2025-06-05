@@ -78,7 +78,7 @@
 	</verbs>
 
     <race>
-      <body>Aq_Gorgon_Body</body>
+      <body>Aq_GorgonBody</body>
 	  <packAnimal>true</packAnimal>
 	  <herdAnimal>false</herdAnimal>
       <predator>true</predator>

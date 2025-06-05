@@ -2,7 +2,7 @@
 <Defs>
 
   <BodyDef>
-    <defName>Aq_Stirge</defName>
+    <defName>Aq_StirgeBody</defName>
     <label>stirge body</label>
     <corePart>
       <def>Body</def>
