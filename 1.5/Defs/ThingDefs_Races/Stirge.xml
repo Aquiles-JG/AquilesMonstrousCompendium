@@ -61,7 +61,7 @@
     <race>
       <body>Aq_Stirge</body>
       <predator>true</predator>
-      <baseBodySize>0.79</baseBodySize>
+      <baseBodySize>0.8</baseBodySize>
       <baseHealthScale>0.8</baseHealthScale>
       <baseHungerRate>0.3</baseHungerRate>
       <maxPreyBodySize>2</maxPreyBodySize>
@@ -153,7 +153,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Stirge/Aq_Stirge</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>1.5</drawSize>
           <shadowData>
 			<volume>(0.4, 0.4, 0.4)</volume>
 			<offset>(0,0,-0.2)</offset>
@@ -161,7 +161,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Stirge/Aq_Dessicated_Stirge</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
