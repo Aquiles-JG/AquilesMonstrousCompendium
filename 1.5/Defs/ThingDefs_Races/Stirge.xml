@@ -67,7 +67,7 @@
       <baseHealthScale>1</baseHealthScale>
       <baseHungerRate>0.5</baseHungerRate>
       <maxPreyBodySize>1.0</maxPreyBodySize>
-      <foodType>CarnivoreAnimal</foodType>
+      <foodType>Corpse,CarnivoreAnimal</foodType>
       <fleshType>Insectoid</fleshType>
       <bloodDef>Filth_BloodInsect</bloodDef>
       <useMeatFrom>Megaspider</useMeatFrom>
