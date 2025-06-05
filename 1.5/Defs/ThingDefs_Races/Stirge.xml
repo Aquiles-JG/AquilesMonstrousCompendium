@@ -28,9 +28,10 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>3</power>
+        <power>2</power>
         <cooldownTime>1.55</cooldownTime>
         <linkedBodyPartsGroup>LegAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.1</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -38,7 +39,7 @@
           <li>Blunt</li>
         </capacities>
         <power>2</power>
-        <cooldownTime>2</cooldownTime>
+        <cooldownTime>1.85</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.1</chanceFactor>
