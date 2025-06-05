@@ -9,8 +9,9 @@
       <MoveSpeed>4.25</MoveSpeed>
       <MeleeDodgeChance>20</MeleeDodgeChance>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
       <MarketValue>250</MarketValue>
-      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
     </statBases>
     <tools>
       <li>
@@ -117,7 +118,7 @@
       </mergeCompatibilityTags>
     </ingredient>
     <tradeTags>
-		<li>AnimalExotic</li>
+		<li>AnimalInsect</li>
 	</tradeTags>
   </ThingDef>
   
