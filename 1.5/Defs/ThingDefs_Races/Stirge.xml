@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
   <ThingDef ParentName="AnimalThingBase">
     <defName>Aq_Stirge</defName>
     <label>stirge</label>
@@ -9,6 +10,7 @@
       <MeleeDodgeChance>20</MeleeDodgeChance>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <MarketValue>250</MarketValue>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
     </statBases>
     <tools>
       <li>
@@ -104,10 +106,16 @@
           <soundAngry>Aq_Stirge</soundAngry>
         </li>
       </lifeStageAges>
+      <soundEating>Insectoid_Eat</soundEating>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li MayRequire="Ludeon.RimWorld.Ideology">InsectMeat</li>
+      </mergeCompatibilityTags>
+    </ingredient>
     <tradeTags>
 		<li>AnimalExotic</li>
 	</tradeTags>
@@ -117,8 +125,8 @@
     <defName>Aq_Stirge</defName>
     <label>stirge</label>
     <race>Aq_Stirge</race>
-    <combatPower>100</combatPower>
-    <ecoSystemWeight>0.3</ecoSystemWeight>
+    <combatPower>60</combatPower>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
     <wildGroupSize>
 		<min>3</min>
 		<max>8</max>
