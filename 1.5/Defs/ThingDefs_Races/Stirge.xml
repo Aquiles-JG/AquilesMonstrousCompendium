@@ -58,7 +58,8 @@
         <eggFertilizedDef>Aq_StirgeEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>5</eggLayIntervalDays>
-        <eggCountRange>1~4</eggCountRange>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>1</eggCountRange>
       </li>
     </comps>
     <race>
@@ -67,7 +68,7 @@
       <baseBodySize>0.4</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
       <baseHungerRate>0.5</baseHungerRate>
-      <maxPreyBodySize>1.0</maxPreyBodySize>
+      <maxPreyBodySize>1.4</maxPreyBodySize>
       <foodType>Corpse,CarnivoreAnimal</foodType>
       <fleshType>Insectoid</fleshType>
       <bloodDef>Filth_BloodInsect</bloodDef>
@@ -88,7 +89,7 @@
 			<li>(1.01, 0)</li>
 		</points>
 	  </litterSizeCurve>
-      <lifeExpectancy>12</lifeExpectancy>
+      <lifeExpectancy>10</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
