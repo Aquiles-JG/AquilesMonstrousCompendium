@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <SoundDef>
     <defName>Aq_Stirge</defName>
     <context>MapOnly</context>
@@ -9,7 +8,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Aq_Stirge</clipFolderPath>
+            <clipFolderPath>Stirge</clipFolderPath>
           </li>
         </grains>
         <pitchRange>
@@ -24,5 +23,115 @@
       </li>
     </subSounds>
   </SoundDef>
-  
+  <!-- Ettin -->
+  <SoundDef>
+    <defName>AMC_Pawn_Ettin_Angry</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>2</maxVoices>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Ettin/Pawn_Ettin_Angry</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>36</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9</min>
+          <max>1.1</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>70</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>AMC_Pawn_Ettin_Wounded</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Ettin/Pawn_Ettin_Wounded</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>36</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9</min>
+          <max>1.1</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>70</max>
+        </distRange>
+        <repeatMode>NeverTwice</repeatMode>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>AMC_Pawn_Ettin_Death</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Ettin/Pawn_Ettin_Death</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>40</min>
+          <max>40</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9</min>
+          <max>1.1</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>70</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>ACM_Pawn_Ettin_Call</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Ettin/Pawn_Ettin_Call</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>36</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9</min>
+          <max>1.1</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>70</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
 </Defs>
