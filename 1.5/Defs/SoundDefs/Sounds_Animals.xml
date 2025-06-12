@@ -36,17 +36,13 @@
             <clipPath>Ettin/Pawn_Ettin_Angry</clipPath>
           </li>
         </grains>
-        <volumeRange>
-          <min>36</min>
-          <max>36</max>
-        </volumeRange>
         <pitchRange>
           <min>0.9</min>
           <max>1.1</max>
         </pitchRange>
         <distRange>
           <min>0</min>
-          <max>70</max>
+          <max>50.40025</max>
         </distRange>
         <sustainLoop>False</sustainLoop>
       </li>
@@ -63,19 +59,14 @@
             <clipPath>Ettin/Pawn_Ettin_Wounded</clipPath>
           </li>
         </grains>
-        <volumeRange>
-          <min>36</min>
-          <max>36</max>
-        </volumeRange>
         <pitchRange>
           <min>0.9</min>
           <max>1.1</max>
         </pitchRange>
         <distRange>
           <min>0</min>
-          <max>70</max>
+          <max>50.40025</max>
         </distRange>
-        <repeatMode>NeverTwice</repeatMode>
         <sustainLoop>False</sustainLoop>
       </li>
     </subSounds>
@@ -91,17 +82,13 @@
             <clipPath>Ettin/Pawn_Ettin_Wounded</clipPath>
           </li>
         </grains>
-        <volumeRange>
-          <min>40</min>
-          <max>40</max>
-        </volumeRange>
         <pitchRange>
           <min>0.9</min>
           <max>1.1</max>
         </pitchRange>
         <distRange>
           <min>0</min>
-          <max>70</max>
+          <max>50.40025</max>
         </distRange>
         <sustainLoop>False</sustainLoop>
       </li>
@@ -118,17 +105,13 @@
             <clipPath>Ettin/Pawn_Ettin_Angry</clipPath>
           </li>
         </grains>
-        <volumeRange>
-          <min>36</min>
-          <max>36</max>
-        </volumeRange>
         <pitchRange>
           <min>0.9</min>
           <max>1.1</max>
         </pitchRange>
         <distRange>
           <min>0</min>
-          <max>70</max>
+          <max>50.40025</max>
         </distRange>
         <sustainLoop>False</sustainLoop>
       </li>

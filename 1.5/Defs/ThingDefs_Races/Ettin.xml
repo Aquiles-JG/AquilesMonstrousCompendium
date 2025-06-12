@@ -75,7 +75,6 @@
       <baseHealthScale>7.5</baseHealthScale>
       <foodType>Corpse,CarnivoreAnimal</foodType>
       <leatherDef>Leather_Human</leatherDef>
-      <meatLabel>ettin meat</meatLabel>
       <wildness>1</wildness>
       <wildBiomes>
         <TemperateForest>0.05</TemperateForest>
