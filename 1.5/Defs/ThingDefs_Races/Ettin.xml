@@ -3,24 +3,34 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Aq_Ettin</defName>
     <label>ettin</label>
-    <description>Evil two-headed giants, known for their vicious nature and unpredictable behavior.</description>
+    <description>Ettins are evil two-headed giants, known for their vicious nature and unpredictable behavior.</description>
     <statBases>
-      <MoveSpeed>3</MoveSpeed>
-      <MarketValue>1500</MarketValue>
+      <MoveSpeed>3.25</MoveSpeed>
+      <MarketValue>2000</MarketValue>
       <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
-      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <ArmorRating_Heat>0.15</ArmorRating_Heat>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <FilthRate>8</FilthRate>
     </statBases>
-    <uiIconScale>0.85</uiIconScale>
+    <uiIconScale>1.1</uiIconScale>
     <tools>
       <li>
-        <label>giant club</label>
+        <label>massive club</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>24</power>
-        <cooldownTime>1.5</cooldownTime>
+        <power>28</power>
+        <surpriseAttack>
+			<extraMeleeDamages>
+				<li>
+					<def>Thump</def>
+					<amount>8</amount>
+				</li>
+			</extraMeleeDamages>
+		</surpriseAttack>
+        <cooldownTime>1.75</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
       </li>
       <li>
@@ -29,16 +39,8 @@
           <li>Blunt</li>
         </capacities>
         <power>14</power>
-        <cooldownTime>1.5</cooldownTime>
+        <cooldownTime>1.75</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>6</power>
-        <cooldownTime>1.65</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
         <label>left head</label>
@@ -46,7 +48,7 @@
           <li>Blunt</li>
         </capacities>
         <power>9</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>2.2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -56,7 +58,7 @@
           <li>Blunt</li>
         </capacities>
         <power>9</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>2.2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -65,9 +67,9 @@
       <body>Aq_EttinBody</body>
       <herdMigrationAllowed>false</herdMigrationAllowed>
       <predator>true</predator>
-      <baseBodySize>4</baseBodySize>
-      <baseHungerRate>0.75</baseHungerRate>
-      <baseHealthScale>25</baseHealthScale>
+      <baseBodySize>3.75</baseBodySize>
+      <baseHungerRate>1.25</baseHungerRate>
+      <baseHealthScale>7.5</baseHealthScale>
       <foodType>Corpse,CarnivoreAnimal</foodType>
       <leatherDef>Leather_Human</leatherDef>
       <meatLabel>ettin meat</meatLabel>
@@ -84,7 +86,6 @@
         <Desert>0.01</Desert>
       </wildBiomes>
       <trainability>Advanced</trainability>
-      <manhunterOnTameFailChance>1.0</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <gestationPeriodDays>25</gestationPeriodDays>
       <lifeExpectancy>50</lifeExpectancy>
