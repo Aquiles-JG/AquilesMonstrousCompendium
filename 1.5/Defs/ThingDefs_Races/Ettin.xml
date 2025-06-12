@@ -71,12 +71,12 @@
       <herdMigrationAllowed>false</herdMigrationAllowed>
       <predator>true</predator>
       <baseBodySize>3.75</baseBodySize>
-      <baseHungerRate>1.25</baseHungerRate>
+      <baseHungerRate>1</baseHungerRate>
       <baseHealthScale>7.5</baseHealthScale>
       <foodType>Corpse,CarnivoreAnimal</foodType>
       <leatherDef>Leather_Human</leatherDef>
       <meatLabel>ettin meat</meatLabel>
-      <wildness>0.985</wildness>
+      <wildness>1</wildness>
       <wildBiomes>
         <TemperateForest>0.05</TemperateForest>
         <BorealForest>0.05</BorealForest>
@@ -105,8 +105,8 @@
           <def>AnimalAdult</def>
           <minAge>0.55</minAge>
           <soundWounded>AMC_Pawn_Ettin_Wounded</soundWounded>
-          <soundDeath>AMC_Pawn_Ettin_Death</soundDeath>
-          <soundCall>AMC_Pawn_Ettin_Call</soundCall>
+          <soundDeath>AMC_Pawn_Ettin_Wounded</soundDeath>
+          <soundCall>AMC_Pawn_Ettin_Angry</soundCall>
           <soundAngry>AMC_Pawn_Ettin_Angry</soundAngry>
         </li>
       </lifeStageAges>
