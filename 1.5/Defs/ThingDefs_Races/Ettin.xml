@@ -47,7 +47,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
+        <power>8</power>
         <cooldownTime>2.2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
@@ -57,12 +57,15 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
+        <power>8</power>
         <cooldownTime>2.2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
+    <comps>
+		<li Class="AnimalBehaviours.CompProperties_Untameable"></li>
+	</comps>
     <race>
       <body>Aq_EttinBody</body>
       <herdMigrationAllowed>false</herdMigrationAllowed>
