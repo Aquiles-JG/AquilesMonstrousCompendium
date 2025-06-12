@@ -2,6 +2,7 @@
 ![](About/Preview.png?raw=true) 
 <p>A bestiarium of monsters, heavily inspired in High Fantasy settings like D&D.</p>
 <p><h3>Personal Philosophy:</h3>A collection of fantasy monsters, some of them created for this mod alone, others brought back from others. I like to have at least one animal in every mod I made, so still there are some, e.g. trolls, that stay where they always have been.</p>
+<p>* <b>Ettin</b></p>
 <p>* <b>Gorgon</b></p>
 <p>* <b>Manticore</b></p>
 <p>* <b>Stirge</b></p>
