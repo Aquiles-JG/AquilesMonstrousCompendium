@@ -61,7 +61,7 @@
             <li>
               <def>Head</def>
               <customLabel>left head</customLabel>
-              <coverage>0.75</coverage>
+              <coverage>0.5</coverage>
               <groups>
                 <li>HeadAttackTool</li>
               </groups>
@@ -118,7 +118,7 @@
             <li>
               <def>Head</def>
               <customLabel>right head</customLabel>
-              <coverage>0.75</coverage>
+              <coverage>0.5</coverage>
               <groups>
                 <li>HeadAttackTool</li>
               </groups>
