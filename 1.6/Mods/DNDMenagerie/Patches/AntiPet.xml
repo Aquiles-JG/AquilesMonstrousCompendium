@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "DND_Antipet"]/ingestible/outcomeDoers/li[@Class="MoodndBehaviorsAndEvents.InjestionOutcomeDoer_RemoveHediffs"]/hediffDefs</xpath>
+    <value>
+      <li>Aq_Petrification</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName = "DND_Antipet"]/costList</xpath>
+    <value>
+      <costList>
+        <Ambrosia>20</Ambrosia>
+        <Aq_GorgonHeart>1</Aq_GorgonHeart>
+      </costList>
+    </value>
+  </Operation>
+</Patch>

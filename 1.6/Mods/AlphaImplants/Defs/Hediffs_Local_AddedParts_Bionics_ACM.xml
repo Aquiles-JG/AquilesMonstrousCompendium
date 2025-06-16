@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Petrifying Gaze -->
+  <HediffDef ParentName="AI_ImplantHediffBase">
+    <defName>AI_AnimalPetrifyingGaze</defName>
+    <label>animal petrifying gaze</label>
+    <labelNoun>an animal petrifying gaze</labelNoun>
+    <description>An installed petrifying gaze implant. This implant will allow this creature to use a very dangerous petrifying gaze that will slow down its target, and eventually kill it.\n\nNote that installing this on a creature that already has a petrifying attack will have no effect. And obviously a creature will need eyes to use this attack.</description>
+    <descriptionHyperlinks>
+      <ThingDef>AI_AnimalPetrifyingGaze</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>AI_AnimalPetrifyingGaze</spawnThingOnRemoved>
+    <comps>
+      <li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <accuracyTouch>1</accuracyTouch>
+            <accuracyShort>1</accuracyShort>
+            <accuracyMedium>1</accuracyMedium>
+            <accuracyLong>1</accuracyLong>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Aq_GazeAttack</defaultProjectile>
+            <warmupTime>1</warmupTime>
+            <burstShotCount>1</burstShotCount>
+            <minRange>1</minRange>
+            <range>20</range>
+            <label>petrifying gaze</label>
+            <muzzleFlashScale>0</muzzleFlashScale>
+            <commonality>1</commonality>
+          </li>
+        </verbs>
+        <verbProps>
+          <li>
+            <label>petrifying gaze</label>
+            <draw>false</draw>
+            <canBeToggled>true</canBeToggled>
+            <canFireIndependently>false</canFireIndependently>
+          </li>
+        </verbProps>
+      </li>
+    </comps>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.75</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

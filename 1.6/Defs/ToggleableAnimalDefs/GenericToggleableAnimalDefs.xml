@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <VEF.AnimalBehaviours.GenericToggleableAnimalDef>
+    <defName>AqMC_DisabledAnimalSpawns</defName>
+    <toggleablePawns>
+      <li>Aq_Ettin</li>
+      <li>Aq_Gorgon</li>
+      <li>Aq_Manticore</li>
+      <li>Aq_Stirge</li>
+      <li>Aq_Unicorn</li>
+    </toggleablePawns>
+  </VEF.AnimalBehaviours.GenericToggleableAnimalDef>
+  
+  <VEF.AnimalBehaviours.AnimalsUnaffectedBySelfTameDef>
+    <defName>AqMC_DisabledAnimalSelfTames</defName>
+    <unaffectedBySelfTamePawns>
+      <li>Aq_Ettin</li>
+      <li>Aq_Gorgon</li>
+      <li>Aq_Manticore</li>
+      <li>Aq_Stirge</li>
+    </unaffectedBySelfTamePawns>
+  </VEF.AnimalBehaviours.AnimalsUnaffectedBySelfTameDef>
+  
+  <VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+    <defName>AqMC_DisabledAnimalFromQuests</defName>
+    <disabledFromQuestsPawns>
+      <li>Aq_Ettin</li>
+      <li>Aq_Gorgon</li>
+      <li>Aq_Manticore</li>
+      <li>Aq_Stirge</li>
+    </disabledFromQuestsPawns>
+  </VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+  
+</Defs>
