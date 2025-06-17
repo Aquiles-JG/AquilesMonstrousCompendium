@@ -31,7 +31,7 @@
 	<additionalHediffs>
 		<li>
 			<hediff>BloodLoss</hediff>
-			<severityPerDamageDealt>0.08</severityPerDamageDealt>
+			<severityPerDamageDealt>0.085</severityPerDamageDealt>
 			<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 			<inverseStatScaling>true</inverseStatScaling>
 		</li>
