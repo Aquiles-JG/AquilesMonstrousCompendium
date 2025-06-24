@@ -77,15 +77,12 @@
       <foodType>Corpse,CarnivoreAnimal</foodType>
       <leatherDef>Leather_Human</leatherDef>
       <wildBiomes>
-        <TemperateForest>0.05</TemperateForest>
-        <BorealForest>0.05</BorealForest>
-        <ColdBog>0.1</ColdBog>
+        <TemperateForest>0.01</TemperateForest>
+        <BorealForest>0.02</BorealForest>
+        <ColdBog>0.02</ColdBog>
         <TemperateSwamp>0.01</TemperateSwamp>
-        <Tundra>0.01</Tundra>
-        <TropicalSwamp>0.01</TropicalSwamp>
-        <TropicalRainforest>0.05</TropicalRainforest>
-        <AridShrubland>0.05</AridShrubland>
-        <Desert>0.01</Desert>
+        <Tundra>0.02</Tundra>
+        <AridShrubland>0.005</AridShrubland>
       </wildBiomes>
       <trainability>Advanced</trainability>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
@@ -127,7 +124,7 @@
     <defName>Aq_Ettin</defName>
     <label>ettin</label>
     <race>Aq_Ettin</race>
-    <combatPower>500</combatPower>
+    <combatPower>1000</combatPower>
     <ecoSystemWeight>0.25</ecoSystemWeight>
     <canArriveManhunter>false</canArriveManhunter>
     <lifeStages>
