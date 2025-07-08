@@ -11,6 +11,7 @@
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <ToxicResistance>1</ToxicResistance>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
       <MarketValue>250</MarketValue>
       <Wildness>0.9</Wildness>
     </statBases>

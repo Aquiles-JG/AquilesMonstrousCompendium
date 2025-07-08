@@ -85,6 +85,9 @@
         <AridShrubland>0.005</AridShrubland>
       </wildBiomes>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <gestationPeriodDays>25</gestationPeriodDays>
       <lifeExpectancy>50</lifeExpectancy>
@@ -106,6 +109,7 @@
           <soundAngry>AMC_Pawn_Ettin_Angry</soundAngry>
         </li>
       </lifeStageAges>
+      <soundEating>PredatorLarge_Eat</soundEating>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>

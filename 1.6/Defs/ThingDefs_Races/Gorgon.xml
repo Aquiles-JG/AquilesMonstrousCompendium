@@ -89,6 +89,9 @@
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>Leather_Aq_Gorgon</leatherDef>
 	  <trainability>Intermediate</trainability>
+	  <specialTrainables>
+         <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <lifeExpectancy>30</lifeExpectancy>
 	  <gestationPeriodDays>12</gestationPeriodDays>
 	  <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
@@ -128,6 +131,7 @@
           <soundAngry>Pawn_Muffalo_Angry</soundAngry>
         </li>
       </lifeStageAges>
+      <soundEating>PredatorLarge_Eat</soundEating>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
