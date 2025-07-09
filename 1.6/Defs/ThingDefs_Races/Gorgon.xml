@@ -4,7 +4,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Aq_Gorgon</defName>
     <label>gorgon</label>
-    <description>Gorgons are fierce, bull-like beasts who make their lairs in dreary caverns or the fastness of a wilderness. They are aggressive by nature and usually attack any creature or person they encounter. Monstrous black bulls, gorgons have hides of thick metal scales. Their breath is a noxious vapor that billows forth in great puffs from their wide, bull nostrils. Despite their great size, they can move through even heavy forests with incredible speed, for they simply trample bushes and splinter smaller trees. Beware of its petrifying gaze!</description>
+    <description>Gorgons are fierce, bull-like beasts who make their lairs in dreary caverns or the fastness of a wilderness. They are aggressive by nature and usually attack any creature or person they encounter. Monstrous black bulls, gorgons have hides of thick metal scales that reduce any incoming damage. Their breath is a noxious vapor that billows forth in great puffs from their wide, bull nostrils. Beware of its petrifying gaze!</description>
     <statBases>
       <MoveSpeed>4.75</MoveSpeed>
       <MarketValue>1500</MarketValue>
@@ -14,7 +14,7 @@
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
 	  <FilthRate>6</FilthRate>
 	  <ToxicResistance>0.2</ToxicResistance>
-	  <IncomingDamageFactor>0.75</IncomingDamageFactor>
+	  <IncomingDamageFactor>0.8</IncomingDamageFactor>
 	  <Wildness>0.8</Wildness>
     </statBases>
     <tools>
