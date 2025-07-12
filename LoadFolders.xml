@@ -1,19 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <loadFolders>
-
-  <v1.5>
-    <li>1.5</li>
-    <li>Common</li>
-    <li IfModActive="SamBucher.ADogSaidAnimalProsthetics2">1.5/Mods/ADogSaid2</li>
-    <li IfModActive="sarg.alphaimplants">1.5/Mods/AlphaImplants</li>
-    <li IfModActive="Aquiles.Alchemy">1.5/Mods/AquilesAlchemy</li>
-    <li IfModActive="CETeam.CombatExtended">1.5/Mods/CombatExtended</li>
-    <li IfModActive="mooloh.dndmenagerie">1.5/Mods/DNDMenagerie</li>
-    <li IfModActive="VanillaExpanded.VanillaAspirationsExpanded">1.5/Mods/VanillaAspirationsExpanded</li>
-  </v1.5>
-  
-
 <v1.6>
   <li>1.6</li>
   <li>Common</li>
