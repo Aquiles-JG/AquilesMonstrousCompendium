@@ -96,14 +96,12 @@
 		</tools>
 		<race>
 			<wildBiomes>
-				<BorealForest>0.025</BorealForest>
-				<ColdBog>0.025</ColdBog>
-				<Tundra>0.025</Tundra>
-				<TemperateSwamp>0.02</TemperateSwamp>
-				<TropicalSwamp>0.005</TropicalSwamp>
+				<BorealForest>0.02</BorealForest>
+				<ColdBog>0.02</ColdBog>
+				<Tundra>0.02</Tundra>
+				<TemperateSwamp>0.01</TemperateSwamp>
 				<TemperateForest>0.01</TemperateForest>
-				<TropicalRainforest>0.005</TropicalRainforest>
-				<AridShrubland>0.005</AridShrubland>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.01</Glowforest>
 			</wildBiomes>
 			<predator>true</predator>
 			<maxPreyBodySize>1.0</maxPreyBodySize>
