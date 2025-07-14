@@ -77,7 +77,6 @@
 				<BorealForest>0.005</BorealForest>
 				<TemperateForest>0.01</TemperateForest>
 				<TropicalRainforest>0.005</TropicalRainforest>
-				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.02</Glowforest>
 			</wildBiomes>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
 			<herdAnimal>true</herdAnimal>

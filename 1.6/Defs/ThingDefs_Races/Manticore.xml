@@ -101,7 +101,6 @@
 				<Tundra>0.02</Tundra>
 				<TemperateSwamp>0.01</TemperateSwamp>
 				<TemperateForest>0.01</TemperateForest>
-				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.01</Glowforest>
 			</wildBiomes>
 			<predator>true</predator>
 			<maxPreyBodySize>1.0</maxPreyBodySize>
