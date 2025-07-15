@@ -97,9 +97,7 @@
 	  <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
 	  <wildBiomes>
-	    <TropicalRainforest>0.04</TropicalRainforest>
 		<TropicalSwamp>0.04</TropicalSwamp>
-		<TemperateForest>0.02</TemperateForest>
 		<TemperateSwamp>0.02</TemperateSwamp>
 		<AridShrubland>0.02</AridShrubland>
 		<Desert>0.01</Desert>
