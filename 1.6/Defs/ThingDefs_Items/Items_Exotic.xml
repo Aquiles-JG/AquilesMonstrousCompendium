@@ -98,6 +98,9 @@
     <thingCategories>
       <li>ItemsMisc</li>
     </thingCategories>
+    <comps>
+      <li Class="CompProperties_Styleable"></li>
+    </comps>
     <tradeTags>
       <li>ExoticMisc</li>
       <li>Elvendom</li>
