@@ -43,7 +43,6 @@
       <li>AnimalProductRaw</li>
     </thingCategories>
     <drawGUIOverlay>true</drawGUIOverlay>
-    <techLevel>Medieval</techLevel>
     <thingSetMakerTags>
       <li>AnimalPart</li>
     </thingSetMakerTags>
@@ -73,9 +72,6 @@
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
     <relicChance>3</relicChance>
-    <comps>
-      <li Class="CompProperties_Styleable"></li>
-    </comps>
     <weaponClasses>
       <li>Melee</li>
       <li>MeleePiercer</li>
