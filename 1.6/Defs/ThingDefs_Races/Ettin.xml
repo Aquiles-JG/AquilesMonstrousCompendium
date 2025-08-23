@@ -87,7 +87,7 @@
       </wildBiomes>
       <trainability>Advanced</trainability>
       <specialTrainables>
-        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">TerrorRoar</li>
       </specialTrainables>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <gestationPeriodDays>25</gestationPeriodDays>
