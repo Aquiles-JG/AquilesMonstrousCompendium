@@ -11,6 +11,7 @@
   <li IfModActive="sarg.alphaimplants">1.6/Mods/AlphaImplants</li>
   <li IfModActive="Aquiles.Alchemy">1.6/Mods/AquilesAlchemy</li>
   <li IfModActive="mooloh.dndmenagerie">1.6/Mods/DNDMenagerie</li>
+  <li IfModActive="Mlie.JPTSoftWarmBeds">1.6/Mods/JPTSoftWarmBeds</li>
   <li IfModActive="VanillaExpanded.VanillaAspirationsExpanded">1.6/Mods/VanillaAspirationsExpanded</li>
 </v1.6>
 </loadFolders>
