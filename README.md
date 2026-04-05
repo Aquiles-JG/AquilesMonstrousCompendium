@@ -7,7 +7,7 @@
 <p>* <b>Manticore</b></p>
 <p>* <b>Stirge</b></p>
 <p>* <b>Unicorn</b></p>
-<p>* <b>Scrag</b>(Odyssey DLC needed)</p>
+<p>* <b>Scrag</b>  (Odyssey DLC needed)</p>
 <h2>Credits</h2>
 <p> <b>Art:</b> IcyCheeseCake</p>
 <p> <b>XML and Design:</b> Aquiles</p>
