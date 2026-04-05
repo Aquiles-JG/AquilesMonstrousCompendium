@@ -1,5 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <!-- All sounds form http://soundbible.com/ by Mike Koenig -->
+  <!-- Scrags and trolls share the same sounds-->
+  <SoundDef>
+    <defName>Aq_Scrag_Call</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <!-- Bull-SoundBible.com-1252561191 -->
+            <clipPath>Scrag/Scrag_Calls</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35.42672~34.7734</volumeRange>
+        <pitchRange>0.9770588~1.137647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Aq_Scrag_Angry</defName>
+    <context>MapOnly</context>
+    <maxVoices>2</maxVoices>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <!-- Large Angry Dog-SoundBible.com-1015886858 -->
+            <clipPath>Scrag/Scrag_Angry</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>
+        <pitchRange>0.9541176~1.137647</pitchRange>
+        <distRange>0~70</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Aq_Scrag_Wounded</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <!-- Bull-SoundBible.com-1252561191 -->
+            <clipPath>Scrag/Scrag_Angry</clipPath>
+          </li>
+        </grains>
+        <volumeRange>15~15</volumeRange>
+        <pitchRange>0.9311765~1.091765</pitchRange>
+        <distRange>0~70</distRange>
+        <repeatMode>NeverTwice</repeatMode>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Aq_Scrag_Death</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <!-- Lion-SoundBible.com-621763115 -->
+            <clipPath>Scrag/Scrag_Death</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <pitchRange>0.9311764~1.068824</pitchRange>
+        <distRange>0~70</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- Stirge-->
   <SoundDef>
     <defName>Aq_Stirge</defName>
     <context>MapOnly</context>
@@ -112,6 +189,118 @@
         <distRange>
           <min>0</min>
           <max>50.40025</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- Unicorn-->
+  <SoundDef>
+    <defName>Aq_Unicorn_Call</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Unicorn/Unicorn_Call</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>15.42672</min>
+          <max>14.7734</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9770588</min>
+          <max>1.137647</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>50.40025</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Aq_Unicorn_Angry</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxVoices>2</maxVoices>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Unicorn/Unicorn_Angry</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>25</min>
+          <max>25</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9541176</min>
+          <max>1.137647</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>70</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+        <repeatMode>NeverTwice</repeatMode>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Aq_Unicorn_Wounded</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Unicorn/Unicorn_Wounded</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>15</min>
+          <max>15</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9311765</min>
+          <max>1.091765</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>70</max>
+        </distRange>
+        <repeatMode>NeverTwice</repeatMode>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Aq_Unicorn_Death</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Unicorn/Unicorn_Death</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>20</min>
+          <max>20</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9311764</min>
+          <max>1.068824</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>70</max>
         </distRange>
         <sustainLoop>False</sustainLoop>
       </li>

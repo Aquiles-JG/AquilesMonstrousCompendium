@@ -102,10 +102,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.5</minAge>
-					<soundWounded>Aq_Pegasus_Wounded</soundWounded>
-					<soundDeath>Aq_Pegasus_Death</soundDeath>
-					<soundAngry>Aq_Pegasus_Angry</soundAngry>
-					<soundCall>Aq_Pegasus_Call</soundCall>
+					<soundWounded>Aq_Unicorn_Wounded</soundWounded>
+					<soundDeath>Aq_Unicorn_Death</soundDeath>
+					<soundAngry>Aq_Unicorn_Angry</soundAngry>
+					<soundCall>Aq_Unicorn_Call</soundCall>
 				</li>
 			</lifeStageAges>
 			<soundEating>Herbivore_Eat</soundEating>
