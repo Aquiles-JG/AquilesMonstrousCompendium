@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+   <!-- Cold-->
+   <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="BorealForest" or defName="Tundra" or defName="ColdBog"]/coastalWildAnimals</xpath>
+    <value>
+      <Aq_SaltwaterScrag>0.05</Aq_SaltwaterScrag>
+    </value>
+  </Operation>
+  <!-- Temperate-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp"]/coastalWildAnimals</xpath>
+    <value>
+      <Aq_SaltwaterScrag>0.05</Aq_SaltwaterScrag>
+    </value>
+  </Operation>
+</Patch>

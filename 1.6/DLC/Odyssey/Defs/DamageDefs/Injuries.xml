@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef ParentName="CutBase">
+    <defName>Aq_InfectiousClaws</defName>
+    <label>infectious claws</label>
+    <workerClass>VEF.AnimalBehaviours.DamageWorker_ExtraInfecter</workerClass>
+    <additionalHediffs>
+		<li>
+			<hediff>ToxicBuildup</hediff>
+			<severityPerDamageDealt>0.003</severityPerDamageDealt>
+			<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+			<inverseStatScaling>true</inverseStatScaling>
+		</li>
+	</additionalHediffs>
+  </DamageDef>
+</Defs>

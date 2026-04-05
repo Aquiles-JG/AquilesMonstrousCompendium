@@ -9,6 +9,7 @@
       <li>Aq_Manticore</li>
       <li>Aq_Stirge</li>
       <li>Aq_Unicorn</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">Aq_SaltwaterScrag</li>
     </toggleablePawns>
   </VEF.AnimalBehaviours.GenericToggleableAnimalDef>
   
@@ -19,6 +20,7 @@
       <li>Aq_Gorgon</li>
       <li>Aq_Manticore</li>
       <li>Aq_Stirge</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">Aq_SaltwaterScrag</li>
     </unaffectedBySelfTamePawns>
   </VEF.AnimalBehaviours.AnimalsUnaffectedBySelfTameDef>
   
@@ -29,6 +31,7 @@
       <li>Aq_Gorgon</li>
       <li>Aq_Manticore</li>
       <li>Aq_Stirge</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">Aq_SaltwaterScrag</li>
     </disabledFromQuestsPawns>
   </VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
   
