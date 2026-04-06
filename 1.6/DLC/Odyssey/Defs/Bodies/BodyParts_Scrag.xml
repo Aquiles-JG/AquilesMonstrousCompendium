@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>Aq_Back</defName>
+    <label>back</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>8</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Aq_RayFin</defName>
+    <label>ray-fin</label>
+    <hitPoints>5</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <beautyRelated>true</beautyRelated>
+  </BodyPartDef>
+</Defs>
