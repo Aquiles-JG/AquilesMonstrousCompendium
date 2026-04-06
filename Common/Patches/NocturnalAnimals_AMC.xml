@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Stirge -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="Aq_Stirge"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.ExtendedRaceProperties">
+				<bodyClock>Crepuscular</bodyClock>
+			</li>
+		</value>
+	</Operation>
+</Patch>
