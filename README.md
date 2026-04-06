@@ -14,6 +14,6 @@
 <p> <b>Sounds:</b> Mike Koenig at soundbible.com (stirge)</p>
 <p>Rimworld is owned by Tynan Sylvester.</p>
 <h3>Disclaimer</h3>
-<p>This mod is for private use only. This mod will never by published elsewhere.</p>
+<p>This mod is for private use only. This mod will never be published elsewhere.</p>
 <h3>Special thanks</h3>
 All the creatures were made by IcyCheeseCake, an amazing artist. Please support him in https://buymeacoffee.com/icingcheesecake.
