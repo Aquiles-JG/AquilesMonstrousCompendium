@@ -4,14 +4,28 @@
    <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="BorealForest" or defName="Tundra" or defName="ColdBog"]/coastalWildAnimals</xpath>
     <value>
-      <Aq_SaltwaterScrag>0.05</Aq_SaltwaterScrag>
+      <Aq_SaltwaterScrag>0.04</Aq_SaltwaterScrag>
     </value>
   </Operation>
   <!-- Temperate-->
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp"]/coastalWildAnimals</xpath>
     <value>
-      <Aq_SaltwaterScrag>0.05</Aq_SaltwaterScrag>
+      <Aq_SaltwaterScrag>0.03</Aq_SaltwaterScrag>
+    </value>
+  </Operation>
+  <!-- Tropical-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="TropicalRainforest" or defName="TropicalSwamp"]/coastalWildAnimals</xpath>
+    <value>
+      <Aq_SaltwaterScrag>0.02</Aq_SaltwaterScrag>
+    </value>
+  </Operation>
+  <!-- Odyssey-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName="Glowforest"]/coastalWildAnimals</xpath>
+    <value>
+      <Aq_SaltwaterScrag>0.01</Aq_SaltwaterScrag>
     </value>
   </Operation>
 </Patch>
