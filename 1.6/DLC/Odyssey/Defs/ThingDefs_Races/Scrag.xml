@@ -96,7 +96,7 @@
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
       <baseBodySize>2</baseBodySize>
-      <baseHungerRate>0.75</baseHungerRate>
+      <baseHungerRate>0.425</baseHungerRate>
       <baseHealthScale>2.25</baseHealthScale>
       <foodType>Corpse,CarnivoreAnimal,OvivoreAnimal</foodType>
       <trainability>Advanced</trainability>
@@ -150,7 +150,7 @@
 		<race>Aq_SaltwaterScrag</race>
 		<combatPower>270</combatPower>
     	<ecoSystemWeight>0.25</ecoSystemWeight>
-		<wildGroupSize>1~3</wildGroupSize>
+		<wildGroupSize>1~2</wildGroupSize>
 		<moveSpeedFactorByTerrainTag>
       	  <li>
         	<key>Water</key>

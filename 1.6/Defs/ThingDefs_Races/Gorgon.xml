@@ -84,7 +84,7 @@
 	  <herdAnimal>false</herdAnimal>
       <predator>true</predator>
       <baseBodySize>2</baseBodySize>
-      <baseHungerRate>0.4</baseHungerRate>
+      <baseHungerRate>0.35</baseHungerRate>
       <baseHealthScale>2.5</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>Leather_Aq_Gorgon</leatherDef>

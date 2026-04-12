@@ -70,7 +70,7 @@
       <predator>true</predator>
       <baseBodySize>0.4</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
-      <baseHungerRate>0.5</baseHungerRate>
+      <baseHungerRate>0.25</baseHungerRate>
       <maxPreyBodySize>1.4</maxPreyBodySize>
       <foodType>Corpse,CarnivoreAnimal</foodType>
       <fleshType>Insectoid</fleshType>
