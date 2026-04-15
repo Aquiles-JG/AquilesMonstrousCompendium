@@ -75,6 +75,7 @@
       <baseHungerRate>1</baseHungerRate>
       <baseHealthScale>7.5</baseHealthScale>
       <foodType>Corpse,CarnivoreAnimal</foodType>
+      <useMeatFrom>Human</useMeatFrom>
       <leatherDef>Leather_Human</leatherDef>
       <wildBiomes>
         <TemperateForest>0.01</TemperateForest>
