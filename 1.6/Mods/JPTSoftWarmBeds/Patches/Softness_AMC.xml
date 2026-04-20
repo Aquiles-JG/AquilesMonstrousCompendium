@@ -1,32 +1,37 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
-<Operation Class="PatchOperationAdd">
-	<xpath>Defs/ThingDef[defName="Leather_Aq_Unicorn"]/statBases</xpath>
-	<value>
-		<Textile_Softness>0.5</Textile_Softness>
-	</value>
-</Operation>
-
-<Operation Class="PatchOperationAdd">
-	<xpath>Defs/ThingDef[defName="Leather_Aq_Manticore"]/statBases</xpath>
-	<value>
-		<Textile_Softness>0.35</Textile_Softness>
-	</value>
-</Operation>
-
-<Operation Class="PatchOperationAdd">
-	<xpath>Defs/ThingDef[defName="Leather_Aq_Gorgon"]/statBases</xpath>
-	<value>
-		<Textile_Softness>0.29</Textile_Softness>
-	</value>
-</Operation>
-
-<Operation MayRequire="Ludeon.RimWorld.Odyssey" Class="PatchOperationAdd">
-	<xpath>Defs/ThingDef[defName="Leather_Aq_Scrag"]/statBases</xpath>
-	<value>
-		<Textile_Softness>0.2</Textile_Softness>
-	</value>
-</Operation>
-
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Leather_Aq_Unicorn"]/statBases</xpath>
+    <value>
+      <Textile_Softness>0.5</Textile_Softness>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Leather_Aq_Manticore"]/statBases</xpath>
+    <value>
+      <Textile_Softness>0.35</Textile_Softness>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Leather_Aq_Gorgon"]/statBases</xpath>
+    <value>
+      <Textile_Softness>0.29</Textile_Softness>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Leather_Aq_Scrag"]/statBases</xpath>
+          <value>
+            <Textile_Softness>0.2</Textile_Softness>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
 </Patch>
