@@ -150,7 +150,7 @@
 		<race>Aq_SaltwaterScrag</race>
 		<combatPower>270</combatPower>
     	<ecoSystemWeight>0.25</ecoSystemWeight>
-		<wildGroupSize>1~2</wildGroupSize>
+		<wildGroupSize>2~2</wildGroupSize>
 		<moveSpeedFactorByTerrainTag>
       	  <li>
         	<key>Water</key>
