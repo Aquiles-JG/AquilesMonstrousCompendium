@@ -103,10 +103,10 @@
 				<TemperateForest>0.01</TemperateForest>
 			</wildBiomes>
 			<predator>true</predator>
-			<maxPreyBodySize>1.0</maxPreyBodySize>
+			<maxPreyBodySize>2.5</maxPreyBodySize>
 			<body>Aq_ManticoreBody</body>
 			<herdAnimal>false</herdAnimal>
-			<baseBodySize>2.5</baseBodySize>
+			<baseBodySize>2.1</baseBodySize>
 			<baseHungerRate>0.3</baseHungerRate>
 			<baseHealthScale>2</baseHealthScale>
 			<foodType>CarnivoreAnimalStrict</foodType>

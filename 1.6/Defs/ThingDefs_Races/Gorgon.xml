@@ -83,9 +83,10 @@
 	  <packAnimal>true</packAnimal>
 	  <herdAnimal>false</herdAnimal>
       <predator>true</predator>
-      <baseBodySize>2</baseBodySize>
+      <maxPreyBodySize>2.5</maxPreyBodySize>
+      <baseBodySize>2.25</baseBodySize>
       <baseHungerRate>0.35</baseHungerRate>
-      <baseHealthScale>2.5</baseHealthScale>
+      <baseHealthScale>2.25</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>Leather_Aq_Gorgon</leatherDef>
 	  <trainability>Intermediate</trainability>
