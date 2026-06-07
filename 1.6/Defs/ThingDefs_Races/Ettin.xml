@@ -71,6 +71,7 @@
       <body>Aq_EttinBody</body>
       <herdMigrationAllowed>false</herdMigrationAllowed>
       <predator>true</predator>
+      <maxPreyBodySize>4</maxPreyBodySize>
       <baseBodySize>3.75</baseBodySize>
       <baseHungerRate>1</baseHungerRate>
       <baseHealthScale>7.5</baseHealthScale>

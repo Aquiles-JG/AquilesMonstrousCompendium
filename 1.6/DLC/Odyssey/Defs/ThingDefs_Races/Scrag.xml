@@ -95,6 +95,7 @@
       <body>Aq_ScragBody</body>
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
+      <maxPreyBodySize>2.5</maxPreyBodySize>
       <baseBodySize>2</baseBodySize>
       <baseHungerRate>0.425</baseHungerRate>
       <baseHealthScale>2.25</baseHealthScale>
