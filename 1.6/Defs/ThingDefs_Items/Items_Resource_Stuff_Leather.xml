@@ -61,8 +61,5 @@
         <Beauty>2.0</Beauty>
       </statFactors>
     </stuffProps>
-    <tradeTags>
-      <li>ExoticMisc</li>
-    </tradeTags>
   </ThingDef>
 </Defs>
