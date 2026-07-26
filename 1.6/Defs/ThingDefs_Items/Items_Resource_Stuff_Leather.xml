@@ -44,7 +44,7 @@
   <ThingDef ParentName="LeatherBase">
     <defName>Leather_Aq_Unicorn</defName>
     <label>unicorn leather</label>
-    <description>Tanned skin from a unicorn. A very beautiful and sublime leather.</description>
+    <description>Tanned skin from a unicorn. A very beautiful leather, especially indicated for warm climates.</description>
     <statBases>
       <MarketValue>7</MarketValue>
       <StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
